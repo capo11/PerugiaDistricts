@@ -26,7 +26,7 @@ colori_rioni = {
     "Porta Santa Susanna": "#1976d2"
 }
 
-indirizzo_input = st.text_input("Write an Address Perugia (without house number)", 
+indirizzo_input = st.text_input("Write an Address in Perugia", 
                                 value=st.session_state.indirizzo_selezionato or "")
 
 def geocode(address):
